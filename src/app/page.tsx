@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex-grow container mx-auto p-8">
       <section className="text-center mb-8">
-        <h1 className="text-4xl font-bold mb-4">DIYようこそ！</h1>
+        <h1 className="text-4xl font-bold mb-4">タイトル！</h1>
         <p className="text-xl">キャッチコピー</p>
       </section>
 
@@ -61,13 +61,13 @@ export default function Home() {
             {/* ここに画像を配置します。`src`を画像のURLに置き換えてください */}
             <img
               src=""
-              alt="机"
+              alt="画像"
               className="w-full h-auto object-cover"
               style={{ width: "300px", height: "300px" }}
             />
           </div>
           <span className="w-9/12  bg-blue-500 text-white font-bold my-8 py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline">
-            机を作る
+            製品へ
           </span>
         </Link>
       </section>

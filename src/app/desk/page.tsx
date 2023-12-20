@@ -3,14 +3,14 @@ import "../globals.css";
 const desk = () => {
   return (
     <main className="flex min-h-screen flex-col items-stretch justify-start p-8">
-      <h2 className="text-3xl">机</h2>
+      <h2 className="text-3xl">製品</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto w-full">
         {/* 画像コンテナ */}
         <div className="mb-4 bg-gray-500">
           {/* ここに画像を配置します。`src`を画像のURLに置き換えてください */}
           <img
             src=""
-            alt="机"
+            alt="画像"
             className="w-full h-auto object-cover"
             style={{ width: "300px", height: "300px" }}
           />
